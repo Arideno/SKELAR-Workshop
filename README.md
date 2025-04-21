@@ -21,18 +21,19 @@
 - **Встанови iOS Simulator**:  
   `Xcode → Settings → Components → обери симулятор останньої версії iOS` (18.2 або 18.3)
 - **Створи тестовий проєкт**:
-  - `File → New → Project → App`
+  - `Create New Project... -> iOS -> App`
   - Назви проєкт як хочеш (наприклад, “TestApp”)
-  - Вибери `Interface: SwiftUI`, `Language: Swift`
+  - В `Organization Identifier` пропиши будь-який унікальний ідентифікатор, наприклад `tech.skelar`
+  - Вибери `Interface: SwiftUI`, `Language: Swift`, усі інші пункти можна не змінювати
 - **Запусти проєкт у симуляторі**:
   - Вибери симулятор у верхній панелі (наприклад, `iPhone 16 Pro`)
   - Натисни ▶︎ або `Cmd + R` і переконайся, що все працює
 - **(Опційно) Запусти проєкт на реальному iPhone**:
   - Під’єднай iPhone кабелем
-  - Відкрий **Trust this computer** на девайсі, якщо з'явиться запит
-  - У Xcode вгорі обери свій iPhone як ціль
-  - Натисни ▶︎
-  - Якщо побачиш повідомлення *"Provisioning Profile"* — дозволь Xcode створити профіль автоматично
+  - Натисни **Trust this computer** на девайсі, якщо з'явиться запит
+  - iPhone може попросити включити Developer Mode, слідуй інструкціям Xcode
+  - Натисни на назву проєкту зліва у Project Inspector, зайди у вкладку `Signing & Capabilities` та обери в полі `Team` свій Apple ID аккаунт
+  - У Xcode вгорі обери свій iPhone як ціль, запусти проєкт і переконайся, що він запустився на девайсі
 
 ---
 
