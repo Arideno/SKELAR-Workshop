@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDVaaoWbacnCFAjvPWhjHu-Hrga6K-LUhY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>898240763923</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>tech.skelar.Workshop</string>
+	<key>PROJECT_ID</key>
+	<string>skelar-mobile-app-worksh-55fab</string>
+	<key>STORAGE_BUCKET</key>
+	<string>skelar-mobile-app-worksh-55fab.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:898240763923:ios:e7be3130b606a6339b07e6</string>
+</dict>
+</plist>
